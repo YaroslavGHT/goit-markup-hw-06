@@ -1,0 +1,240 @@
+:root{
+    --primary-brand: #4D5AE5;
+    --navy-blue: #2E2F42;
+    --brand-text: #434455;
+    --brand-ligth: #F4F4FD;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: var(--brand-text);
+}
+
+.header{
+    background-color: #FFF;
+}
+.header-logo,
+.footer-logo{
+    color: var(--primary-brand);
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-sp{
+    color: var(--navy-blue);
+}
+
+.header-list-link{
+    color: var(--navy-blue);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    text-decoration: none;
+}
+.header-list-link:hover,
+.header-list-link:focus{
+    color: #404bbf;
+}
+
+.header-address{
+    font-style: normal;
+}
+.header-address-link{
+    color: var(--brand-text);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.header-address-link:hover,
+.header-address-link:focus{
+    color: #404bbf
+}
+
+.header-list,
+.advantages-list,
+.address-list,
+.ourwork-list,
+.ourteam-list {
+    list-style: none;
+}
+
+.mainscrin{
+    background-color: var(--navy-blue);
+}
+
+.mainscrin-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.mainscrin-btn{
+    background-color: var(--primary-brand);
+    font-family: inherit;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.mainscrin-btn:hover,
+.mainscrin-btn:focus{
+    background-color: #404BBF;
+}
+
+.adventages-list-title{
+    font-size: 20px; 
+    font-weight: 500;
+    color: var(--navy-blue);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.advantages-list-text{
+    color: var(--brand-text);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.advantages{
+    background-color: #FFF;
+}
+
+.ourwork{
+    background-color: #FFF;
+}
+
+.ourwork-title{
+    color: var(--navy-blue);
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.ourteam{
+    background-color: var(--brand-ligth);
+}
+
+.ourteam-title{
+    text-align: center;
+    font-size: 36px;
+    color: var(--navy-blue);
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.ourteam-list{
+    background-color: #FFFFFF;
+}
+
+.ourteam-list-title{
+    text-align: center;
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.ourteam-list-text{
+    color: var(--brand-text);
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer{
+    background-color: var(--navy-blue);
+}
+
+.footer-sp{
+    color: var(--brand-ligth);
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-text{
+    color: var(--brand-ligth);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.portmain-list-btn,
+.portmain-list-servis{
+    list-style: none;
+}
+
+.portmain-list-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em; 
+}
+
+.portmain-list-text{
+    color: var(--brand-text);
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
+
+.portmain-button-first{
+    background-color: #404BBF;
+    color:  #FFF;
+    font-family: inherit;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer; 
+}
+
+.portmain-button-second{
+    background-color: #E7E9FC;
+    color: var(--primary-brand);
+    text-align: center;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer; 
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.portmain-list-link{
+    text-decoration: none;
+}
