@@ -3,6 +3,7 @@
     --navy-blue: #2E2F42;
     --brand-text: #434455;
     --brand-ligth: #F4F4FD;
+    --irish: #404BBF;
 }
 
 body{
@@ -41,7 +42,7 @@ body{
 }
 .header-list-link:hover,
 .header-list-link:focus{
-    color: #404bbf;
+    color: var(--irish);
 }
 
 .header-address{
@@ -57,7 +58,7 @@ body{
 
 .header-address-link:hover,
 .header-address-link:focus{
-    color: #404bbf
+    color: var(--irish);
 }
 
 .header-list,
@@ -93,7 +94,7 @@ body{
 }
 .mainscrin-btn:hover,
 .mainscrin-btn:focus{
-    background-color: #404BBF;
+    background-color: var(--irish);
 }
 
 .adventages-list-title{
@@ -131,6 +132,10 @@ body{
     background-color: var(--brand-ligth);
 }
 
+.ourteam-list{
+    background-color: #FFFFFF;
+}
+
 .ourteam-title{
     text-align: center;
     font-size: 36px;
@@ -140,7 +145,7 @@ body{
     text-transform: capitalize;
 }
 
-.ourteam-list{
+.ourteam-list-item{
     background-color: #FFFFFF;
 }
 
@@ -186,6 +191,7 @@ body{
 }
 
 .portmain-list-title{
+    color: var(--navy-blue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -198,9 +204,7 @@ body{
     letter-spacing: 0.02em; 
 }
 
-.portmain-button-first{
-    background-color: #404BBF;
-    color:  #FFF;
+.portmain-button{
     font-family: inherit;
     text-align: center;
     font-size: 16px;
@@ -210,16 +214,14 @@ body{
     cursor: pointer; 
 }
 
-.portmain-button-second{
-    background-color: #E7E9FC;
+.portmain-button.dark{
+    background-color: var(--irish);
+    color:  #FFF;
+}
+
+.portmain-button.ligt{
+    background-color: var(--brand-ligth);
     color: var(--primary-brand);
-    text-align: center;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer; 
 }
 
 .visually-hidden{
