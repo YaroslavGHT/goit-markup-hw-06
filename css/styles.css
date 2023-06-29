@@ -212,14 +212,16 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer; 
-}
-
-.portmain-button.dark{
     background-color: var(--irish);
     color:  #FFF;
 }
 
-.portmain-button.ligt{
+.portmain-button.dark{
+    background-color: var(--irish);
+    color:  #FFF; */
+}
+
+.portmain-button.light{
     background-color: var(--brand-ligth);
     color: var(--primary-brand);
 }
