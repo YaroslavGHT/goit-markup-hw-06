@@ -216,6 +216,12 @@ body{
     color: var(--primary-brand);
 }
 
+.portmain-button:hover,
+.portmain-button:focus{
+    background-color: var(--irish);
+    color: #FFFFFF;
+}
+
 .portmain-list-link{
     text-decoration: none;
 }
