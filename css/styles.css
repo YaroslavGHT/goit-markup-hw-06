@@ -51,7 +51,7 @@ body{
     display: flex;
     gap: 40px;
     padding-top: 24px;
-    padding-bottom: 24px; */
+    padding-bottom: 24px;
 }
 
 .address-list{
@@ -65,6 +65,8 @@ body{
     display: flex;
     gap: 332px;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header{
@@ -84,7 +86,6 @@ body{
     text-decoration: none;
     display: flex;
     align-items: center;
-    padding-left: 15px;
     margin-right: 76px;
 }
 
@@ -129,9 +130,6 @@ body{
 
 .mainscrin{
     background-color: var(--navy-blue);
-}
-
-.mainscrin-container{
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -170,9 +168,10 @@ body{
     background-color: var(--irish);
 }
 
-.advantages-container{
+.advantages{
     padding-top: 120px;
     padding-bottom: 120px;
+    background-color: #FFF;
 }
 
 
@@ -204,12 +203,9 @@ body{
     letter-spacing: 0.02em;
 }
 
-.advantages{
-    background-color: #FFF;
-}
-
 .ourwork{
     background-color: #FFF;
+    padding-bottom: 120px;
 }
 
 .ourwork-container{
@@ -239,9 +235,6 @@ body{
 
 .ourteam{
     background-color: var(--brand-ligth);
-}
-
-.ourteam-container{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -299,12 +292,10 @@ body{
 
 .footer{
     background-color: var(--navy-blue);
-}
-
-.footer-container{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 
 .footer-logo{
     padding-left: 15px;
@@ -340,7 +331,7 @@ body{
     padding-left: 15px;
 }
 
-.portmain-container{
+.portmain-section{
     padding-top: 96px;
     padding-bottom: 120px;
 }
