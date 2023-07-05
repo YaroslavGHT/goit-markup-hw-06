@@ -44,14 +44,15 @@ body{
 .header-navig{
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-list{
     list-style: none;
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .address-list{
@@ -181,11 +182,13 @@ body{
     list-style: none;
     padding-left: 15px;
     padding-right: 15px;
-    justify-content: center
+    justify-content: center;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .adventages-items{
     width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .adventages-list-title{
@@ -227,10 +230,12 @@ body{
     gap: 24px;
     padding-left: 15px;
     padding-right: 15px;
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .ourwork-list-item{
     width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .ourteam{
@@ -259,12 +264,14 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     background-color: var(--brand-ligth);
-    justify-content: center
+    justify-content: center;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .ourteam-list-item{
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
