@@ -50,7 +50,6 @@ body{
     list-style: none;
     display: flex;
     gap: 40px;
-
 }
 
 .address-list{
@@ -71,6 +70,8 @@ body{
 .header{
     background-color: #FFF;
     border-bottom: 1px solid #E7E9FC;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -86,8 +87,6 @@ body{
     display: flex;
     align-items: center;
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-sp{
@@ -101,6 +100,8 @@ body{
     letter-spacing: 0.02em;
     font-weight: 500;
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-list-link:hover,
 .header-list-link:focus{
