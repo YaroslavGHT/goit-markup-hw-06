@@ -44,6 +44,7 @@ body{
 
 .header-navig{
     display: flex;
+    gap: 76px;
 }
 
 .header-list{
@@ -61,17 +62,16 @@ body{
 .header-conteiner{
     outline: 2px solid red;
     align-items: center;
+    display: flex;
+    gap: 332px;
+    align-items: center;
 }
 
 .header{
     background-color: #FFF;
-    display: flex;
-    gap: 332px;
-    align-items: center;
     padding: 24px 15px;
 }
-.header-logo,
-.footer-logo{
+.header-logo{
     color: var(--primary-brand);
     font-size: 18px;
     font-family: Raleway, sans-serif;
@@ -82,7 +82,7 @@ body{
     text-decoration: none;
     display: flex;
     align-items: center;
-    margin-right: 76px;
+    padding-left: 15px;
 }
 
 .header-sp{
@@ -183,7 +183,7 @@ body{
     color: var(--navy-blue);
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .advantages-list-text{
@@ -266,8 +266,8 @@ body{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .ourteam-list-text{
@@ -286,6 +286,17 @@ body{
     padding-left: 15px;
     padding-top: 101.5px;
     padding-bottom: 17.5px;
+    color: var(--primary-brand);
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
+    font-weight: 800;
 }
 
 .footer-sp{
@@ -323,9 +334,9 @@ body{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em; 
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-top: 32px;
     padding-left: 16px;
+    margin-bottom: 8px;  
 }
 
 .portmain-list-text{
@@ -353,18 +364,19 @@ body{
 
 .portmain-list-servis{
     display: flex;
-    row-gap: 24px;
-    column-gap: 48px;
+    row-gap: 48px;
+    column-gap: 24px;
     flex-wrap: wrap;
     list-style: none;
     padding-bottom: 120px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
 }
 
 .portmain-servis-item{
-    width: calc((100% - 48px) / 3);
-    border: 1px solid #E7E9FC;
+    width: calc((100% - 24px * 2) / 3);
+
     background:  #FFF; 
 }
 
@@ -376,6 +388,8 @@ body{
 
 .portmain-list-link{
     text-decoration: none;
+    display: block;
+    border: 1px solid #E7E9FC;
 }
 
 .visually-hidden {
