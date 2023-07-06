@@ -39,6 +39,7 @@ body{
     width: 100%;
     max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header-navig{
@@ -63,8 +64,6 @@ body{
     display: flex;
     gap: 332px;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .header{
@@ -181,8 +180,6 @@ body{
     display: flex;
     gap: 24px;
     list-style: none;
-    padding-left: 15px;
-    padding-right: 15px;
     justify-content: center;
 }
 
@@ -227,8 +224,6 @@ body{
 .ourwork-list{
     display: flex;
     gap: 24px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .ourwork-list-item{
@@ -258,8 +253,6 @@ body{
 .ourteam-list{
     display: flex;
     gap: 24px;
-    padding-left: 15px;
-    padding-right: 15px;
     background-color: var(--brand-ligth);
     justify-content: center;
 }
@@ -330,7 +323,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 279px;
-    padding-left: 15px;
 }
 
 .portmain-section{
@@ -386,8 +378,6 @@ body{
     column-gap: 24px;
     flex-wrap: wrap;
     list-style: none;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
 }
 
