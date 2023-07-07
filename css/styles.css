@@ -204,7 +204,6 @@ body{
 
 .ourwork{
     background-color: #FFF;
-    padding-bottom: 120px;
 }
 
 .ourwork-container{
@@ -233,7 +232,7 @@ body{
 .ourteam{
     background-color: var(--brand-ligth);
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 120px; */
 }
 
 .ourteam-list{
@@ -293,7 +292,6 @@ body{
 
 
 .footer-logo{
-    padding-left: 15px;
     margin-bottom: 16px;
     color: var(--primary-brand);
     font-size: 18px;
@@ -344,8 +342,6 @@ body{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em; 
-    margin-top: 32px;
-    padding-left: 16px;
     margin-bottom: 8px;  
 }
 
@@ -353,8 +349,6 @@ body{
     color: var(--brand-text);
     line-height: 1.5;
     letter-spacing: 0.02em; 
-    padding-left: 16px;
-    padding-bottom: 32px;
 }
 
 .portmain-button{
