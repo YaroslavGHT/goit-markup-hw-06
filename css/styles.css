@@ -139,8 +139,8 @@ body{
     list-style: none;
 }
 
-.current{
-}
+/* .current{
+} */
 
 .current::after{
     content: '';
@@ -233,10 +233,10 @@ body{
     padding: 24px 100px;
     margin-bottom: 8px;
 }
-
+/* 
 .advantages-icon{
     
-    }
+    } */
 
 .adventages-list-title{
     font-size: 20px; 
