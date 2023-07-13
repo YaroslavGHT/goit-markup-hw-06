@@ -64,6 +64,7 @@ body{
     display: flex;
     gap: 332px;
     align-items: center;
+    max-width: 1440px;
 }
 
 .header{
@@ -301,7 +302,8 @@ body{
 }
 
 .ourteam-worker{
-    padding: 32px 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .ourteam-list-title{
@@ -344,16 +346,21 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    /* transition: background-color 300ms ease, color 300ms ease;
-    color: #111111; */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ourteam-icon-svg{
     fill: var(--brand-ligth);
 }
 
+.ourteam-div-link:hover,
+.ourteam-div-link:focus{
+    background-color: #404bbf;
+}
+
 .customers{
-    padding: 120px 15px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .customers-title{
@@ -377,23 +384,27 @@ body{
     width: calc((100% - 24px * 5) / 6);
 }
 
-.customers-list-div{
+.customers-div-link{
+    display: block;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
     padding: 16px 32px;
     border-radius: 4px;
     border: 1px solid #8E8F99;
+    color: #8E8F99;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .customers-icon{
-    fill: #8E8F99;
+    fill: currentColor;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-list-div:hover,
-.customers-list-div:focus{
+.customers-div-link:hover,
+.customers-div-link:focus{
     border: 1px solid #404BBF;
 }
 
@@ -410,7 +421,11 @@ body{
 
 .footer-container{
     display: flex;
-    gap: 120px;
+    align-items: baseline;
+}
+
+.footer-div-first{
+    margin-right: 120px;
 }
 
 .footer-logo{
@@ -449,7 +464,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFF;
     margin-bottom: 16px;
@@ -549,6 +564,7 @@ body{
 
 .portmain-list-link:hover .portmain-text-cover{
     transform: translateY(0);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
 .portmain-list-title{
@@ -571,7 +587,8 @@ body{
 .portmain-list-link{
     text-decoration: none;
     display: block;
-    border: 1px solid #E7E9FC;    
+    border: 1px solid #E7E9FC;  
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
 
 .div-for-cover{
@@ -584,14 +601,13 @@ body{
     top: 0;
     left: 0;
     height: 100%;
+    width: 100%;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-ligth);
     background-color: var(--primary-brand);
-    padding-top: 40px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 40px 32px;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -621,7 +637,8 @@ body{
     height: 100%;
     position: fixed;
     top: 0;
-    background: rgba(46, 47, 66, 0.40); 
+    background: rgba(46, 47, 66, 0.40);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
     
 .modal{
@@ -643,21 +660,38 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scaleX(1);
-    transition: transform 300ms linear; 
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
+.backdrop-svg:hover,
+.backdrop-svg:focus{
+    fill: #ffffff;
+}
+
 
 .modal-btn{
     cursor: pointer;
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 24px;
     height: 24px; 
+    padding: 0;
     background-color:#E7E9FC;
-    border: 1px solid #D9D9D9;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;  
     top: 24px;
     right: 24px; 
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-btn:hover,
+.modal-btn:focus{
+    background-color: #404bbf; 
+    border: none; 
+}
+
 
 .is-hidden {
     opacity: 0;
