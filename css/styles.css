@@ -553,7 +553,10 @@ body{
     color: #ffffff;;
     width: 264px;
     height: 40px;
-    background: var(--navy-blue); 
+    font-size: 12px;
+    line-height: 1.5; 
+    letter-spacing: 0.04em; 
+    background: transparent; 
     border: 1px solid #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding-left: 16px;
