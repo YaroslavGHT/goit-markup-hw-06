@@ -17,8 +17,8 @@
             <nav class="header-navig">
                 <a class="header-logo link" href="./index.html">Web<Span class="header-sp">Studio</Span></a>
                 <ul class="header-list list">
-                    <li class="header-list-item"><a class="header-list-link link" href="./index.html">Studio</a></li>
-                    <li class="header-list-item"><a class="header-list-link link current" href="./portfolio.html">Portfolio</a></li>
+                    <li class="header-list-item"><a class="header-list-link link current" href="./index.html">Studio</a></li>
+                    <li class="header-list-item"><a class="header-list-link link" href="./portfolio.html">Portfolio</a></li>
                     <li class="header-list-item"><a class="header-list-link link" href="">Contacts</a></li>
                 </ul>
             </nav>
@@ -28,7 +28,69 @@
                     <li class="header-address-item"><a class="header-address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <button type="button" class="header-open-btn" data-menu-open>
+                <svg class="header-open-icon" width="32" height="22">
+                  <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </button>
         </div>
+        <div class="header-mobile-menu is-hidden" data-menu>
+            <button class="menu-btn-close" type="button" data-menu-close>
+                <svg class="menu-close-svg" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <div class="menu-div"> 
+                <div class="menu-div-nav">
+                    <ul class="menu-list list">
+                        <li class="menu-list-item"><a class="menu-list-link link" href="./index.html">Studio</a></li>
+                        <li class="menu-list-item"><a class="menu-list-link link" href="./portfolio.html">Portfolio</a></li>
+                        <li class="menu-list-item"><a class="menu-list-link link" href="">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="menu-div-cont">
+                    <address class="menu-address">
+                        <ul class="menu-address-list list" id="contact">
+                            <li class="menu-address-item"><a class="menu-address-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                            <li class="menu-address-item"><a class="menu-address-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        </ul>
+                    </address>
+                    <ul class="menu-list-social">
+                        <li class="menu-item-social">
+                            <a class="menu-link link" href="" aria-label="instagram" target="_blank" rel="noopener noreferrer">
+                                <svg class="menu-icon-svg" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-item-social">
+                            <a class="menu-link link" href="" aria-label="twitter" target="_blank" rel="noopener noreferrer">
+                                <svg class="menu-icon-svg" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-item-social">
+                            <a class="menu-link link" href="" aria-label="facebook" target="_blank" rel="noopener noreferrer">
+                                <svg class="menu-icon-svg" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-item-social">
+                            <a class="menu-link link" href="" aria-label="linkedin" target="_blank" rel="noopener noreferrer">
+                                <svg class="menu-icon-svg" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>   
+
+        </div>
+    
+        
     </header>
     <main class="portmain">
         <section class="portmain-section">
@@ -197,10 +259,10 @@
             <div class="footer-div-input">
                 <p class="footer-lable-text">Subscribe</p>
                 <form class="form-input">
-                    <label class=" footer-lable-hidden" for="footer-input-email">
+                    <label class="footer-lable-hidden" for="footer-input-email">
                         <input class="footer-input"
                          type="email" name="footer-input-email"
-                          id="footer-input-email" placeholder="E-mail">
+                          id="footer-input-email" placeholder="E-mail"/>
                     </label>
                     <button class="submit-btn" type="submit">Subscribe
                         <svg class="btn-icon" width="24" height="24">
