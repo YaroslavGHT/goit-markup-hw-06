@@ -734,16 +734,17 @@ body{
 /* --------PORTFOLIO-------------- */
 
 .portmain-section{
-    padding-top: 96px;
-    padding-bottom: 120px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .portmain-list-btn{
     list-style: none;
     display: flex;
-    gap: 24px;
-    margin-bottom: 72px;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    margin-bottom: 48px;
+    justify-content: start;
 }
 
 .portmain-button{
@@ -774,7 +775,7 @@ body{
 .portmain-list-servis{
     display: flex;
     row-gap: 48px;
-    column-gap: 24px;
+    /* column-gap: 24px; */
     flex-wrap: wrap;
     list-style: none;
     margin: 0 auto;
@@ -782,8 +783,12 @@ body{
     
 }
 
+.portmain-img{
+    max-width: 396px;
+}
+
 .portmain-servis-item{
-    width: calc((100% - 48px)/3);
+    max-width: 396px;
     background:  #FFF; 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
